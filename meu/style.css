@@ -3,11 +3,12 @@
     font-family: sans-serif;
     color: aliceblue;
 }
-body {
+body, div#topbar {
     background-image: url("images/Screenshot-33.webp");
     background-repeat: no-repeat;
     background-size: 103%;
     background-attachment: fixed;
+    background-color: black;
 }
 div#topbar {
     width: 100%;
@@ -39,31 +40,39 @@ h1 {
 h1:hover {
     opacity: 50%;
 }
+h2 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
 a {
     text-decoration: none;
     color: black;
 }
-#oper {
+div#oper, div#inicial {
     display: inline-block;
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
 }
-label {
+div#inicial > p {
+    text-align: center;
+}
+label, p {
     font-size: 2em;
-}  
-input {
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+input, select {
     margin-bottom: 3%;
     color: black;
     font-size: 1.5em;
-} 
+}
+option {
+    color: black;
+}
 .enviar, .limpar {
     background-color: rgba(0, 255, 255, 0.842);
 }
 .excluir {
     background-color: rgba(255, 0, 0, 0.733);
-}
-p {
-    font-size: 2em;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
