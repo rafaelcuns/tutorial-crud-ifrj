@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 23-Out-2022 às 07:23
+-- Tempo de geração: 25-Out-2022 às 04:06
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 8.1.6
 
@@ -46,7 +46,8 @@ INSERT INTO `jogadores` (`codigo`, `nome`, `cpf`, `nascimento`, `time`, `funcao`
 (1, 'Caio', '587.164.330', '2005-05-12', 'LOUD', 'Iniciador', 100),
 (2, 'Lucas', '253.373.540', '2005-05-19', 'LOUD', 'Duelista', 0),
 (3, 'Gian', '795.935.150', '2005-11-20', 'LOUD', 'Sentinela', 100),
-(4, 'Marco Aurélio', '672.712.500', '2005-02-16', 'LOUD', 'Sentinela', 0);
+(4, 'Marco Aurélio', '672.712.500', '2005-02-16', 'LOUD', 'Sentinela', 0),
+(7, 'Zl né amor', '19029513758', '2005-08-24', 'Furia', 'Controlador', 12);
 
 --
 -- Índices para tabelas despejadas
